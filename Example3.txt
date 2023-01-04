@@ -1,0 +1,9 @@
+module mmf (
+output wire [0:2] sum
+);
+wire [0:2] a ;
+wire [0:2] b ; 
+assign a = 3'b111 ;
+assign b = 3'b001 ;
+assign sum = a * b + a - b  ;
+endmodule

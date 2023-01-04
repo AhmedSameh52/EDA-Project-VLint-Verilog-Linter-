@@ -1,0 +1,26 @@
+module d_ff (
+input clk,
+input D,
+output reg Q ,
+output reg Q_bar ,
+output reg Z 
+);
+always @ (posedge clk)
+begin
+Q = D ; 
+Q = Q_bar ; 
+Q_bar = ~ D ;
+Q_bar = Q + D ;
+end
+always @ (posedge clk)
+begin
+Q = D ;
+Z = 2 ;
+end
+always @ (posedge clk)
+begin
+Z = Q ;
+end
+assign Q_bar = 2 ;
+assign Q_bar = 3 ;
+endmodule
