@@ -1,0 +1,3 @@
+line 18 case (current_state) is NOT a Full Case
+line 18 case (current_state) is NOT a Parallel Case
+Line 18: Unreachable FSM State(s): ["3'b000", "3'b001", "3'b010"]
