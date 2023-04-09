@@ -17,8 +17,8 @@ Multi-Driven Bus/Register
 --------------------
 verilog code Notes 
 --------------------
-**please do not enter more than one space after each word, for correct parsing.
-**you can add spaces normally at the beginning or end of each line in the code.
+** please do not enter more than one space after each word, for correct parsing.
+** you can add spaces normally at the beginning or end of each line in the code.
 
 for example this is one of the correct ways to write the code: 
 
